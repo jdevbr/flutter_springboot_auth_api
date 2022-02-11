@@ -34,6 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     };
 
     private static final String[] PUBLIC_GET = {
+            "/api/name",
             "/auth/refresh"
     };
 
